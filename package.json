@@ -1,0 +1,17 @@
+{
+  "name": "guild-di-typescript",
+  "private": true,
+  "scripts": {},
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "tsyringe": "^4.7.0",
+    "typescript": "^4.9.5"
+  },
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}

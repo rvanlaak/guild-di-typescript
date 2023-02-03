@@ -1,5 +1,7 @@
 import ProductPublisher from "../../Application/ProductPublisher";
+import {singleton} from "tsyringe";
 
+@singleton()
 export default class PublishProductCommand {
   constructor(private readonly productPublisher: ProductPublisher) {
   }
@@ -10,5 +12,4 @@ export default class PublishProductCommand {
 
     return result ? 'Product was published' : 'Product was not published';
   }
-
 }

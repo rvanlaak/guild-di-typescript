@@ -8,7 +8,7 @@ import Product from "../Domain/Product";
  */
 export default class FileProductRepository implements ProductRepository {
   get(id: string): Product {
-    return new Product(id, 'Product Name');
+    return new Product(id, 'Blue Sneakers');
   }
 
   save(product: Product): void {

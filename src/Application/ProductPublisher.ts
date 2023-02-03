@@ -1,9 +1,10 @@
+import {inject, singleton} from "tsyringe";
 import {ProductRepository} from "../Domain/ProductRepository";
-import WasAlreadyPublished from "../Domain/WasAlreadyPublished";
 
+@singleton()
 export default class ProductPublisher {
 
-  constructor(private readonly repository: ProductRepository) {
+  constructor(@inject("ProductRepository") private readonly repository: ProductRepository) {
   }
 
   publishProduct(id: string): boolean

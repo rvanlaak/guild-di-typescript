@@ -1,4 +1,4 @@
-import WasAlreadyPublished from "./WasAlreadyPublished";
+import WasAlreadyPublished from "@/Domain/WasAlreadyPublished";
 
 export default class Product {
 

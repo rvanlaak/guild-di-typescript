@@ -1,5 +1,5 @@
-import {ProductRepository} from "../Domain/ProductRepository";
-import Product from "../Domain/Product";
+import {ProductRepository} from "@/Domain/ProductRepository";
+import Product from "@/Domain/Product";
 
 /**
  * This is a repository implementation that reads the product from file.

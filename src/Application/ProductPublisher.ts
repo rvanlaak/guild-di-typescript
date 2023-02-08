@@ -1,5 +1,5 @@
 import {inject, singleton} from "tsyringe";
-import {ProductRepository} from "../Domain/ProductRepository";
+import {ProductRepository} from "@/Domain/ProductRepository";
 
 @singleton()
 export default class ProductPublisher {

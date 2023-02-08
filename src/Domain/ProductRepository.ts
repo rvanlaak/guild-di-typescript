@@ -1,4 +1,4 @@
-import Product from "./Product";
+import Product from "@/Domain/Product";
 
 /**
  * Contract with the product that currently focuses on both the read and write model.

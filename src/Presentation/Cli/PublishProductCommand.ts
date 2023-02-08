@@ -1,5 +1,5 @@
-import ProductPublisher from "../../Application/ProductPublisher";
 import {singleton} from "tsyringe";
+import ProductPublisher from "@/Application/ProductPublisher";
 
 @singleton()
 export default class PublishProductCommand {

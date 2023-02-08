@@ -1,4 +1,4 @@
-import Product from "./Product";
+import Product from "@/Domain/Product";
 
 export default class WasAlreadyPublished implements Error {
   message: string;

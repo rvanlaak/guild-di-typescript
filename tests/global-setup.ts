@@ -1,7 +1,6 @@
 import "reflect-metadata";
 import {container} from "tsyringe";
-
-import FileProductRepository from "../src/Infrastructure/FileProductRepository";
+import FileProductRepository from "@/Infrastructure/FileProductRepository";
 
 /*
  Because of the dependency inversion, Typescript compilation does not "visit" the FileProductRepository and
